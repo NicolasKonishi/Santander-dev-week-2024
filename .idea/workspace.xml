@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d1851d0-16a8-4ce8-a37d-ea855b0a62f1" name="Changes" comment="Revert &quot;Alteração na parte de erros e modificação da aplicação na rede&quot;&#10;&#10;This reverts commit c69966d90f3a1bd1edfcd1200f71c84ee3665419.">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/58611529-9550-497a-a081-efa9801c920e.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/58611529-9550-497a-a081-efa9801c920e/storage_v2/_src_/database/SDW2024.JjKQnw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/58611529-9550-497a-a081-efa9801c920e/storage_v2/_src_/database/SDW2024.JjKQnw/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/58611529-9550-497a-a081-efa9801c920e/storage_v2/_src_/database/SDW2024.JjKQnw/schema/PUBLIC.aaZQjQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_03_2024_17_38_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_03_2024_17_38__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3d1851d0-16a8-4ce8-a37d-ea855b0a62f1" name="Changes" comment="commit se">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/58611529-9550-497a-a081-efa9801c920e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/58611529-9550-497a-a081-efa9801c920e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +251,8 @@
       <workItem from="1711830293631" duration="516000" />
       <workItem from="1711830828143" duration="490000" />
       <workItem from="1711831337702" duration="739000" />
-      <workItem from="1711832108331" duration="307000" />
+      <workItem from="1711832108331" duration="615000" />
+      <workItem from="1711832747788" duration="191000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -330,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711831125138</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit se">
+      <option name="closed" value="true" />
+      <created>1711832434001</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711832434001</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +347,8 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Alteração na parte de erros e modificação da aplicação na rede" />
     <MESSAGE value="Revert &quot;Alteração na parte de erros e modificação da aplicação na rede&quot;&#10;&#10;This reverts commit c69966d90f3a1bd1edfcd1200f71c84ee3665419." />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Alteração na parte de erros e modificação da aplicação na rede&quot;&#10;&#10;This reverts commit c69966d90f3a1bd1edfcd1200f71c84ee3665419." />
+    <MESSAGE value="commit se" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit se" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
