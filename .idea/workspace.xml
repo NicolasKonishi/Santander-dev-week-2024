@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d1851d0-16a8-4ce8-a37d-ea855b0a62f1" name="Changes" comment="commit se">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/58611529-9550-497a-a081-efa9801c920e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/58611529-9550-497a-a081-efa9801c920e.xml" afterDir="false" />
+    <list default="true" id="3d1851d0-16a8-4ce8-a37d-ea855b0a62f1" name="Changes" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Santander-Dev-Week2024" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +65,16 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2eHYW5CG7UUhVLqjU3dDdGx59ww" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Gradle.Build Santander-dev-week-2024.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.ListChampionUseCaseIntegrationTest.executor&quot;: &quot;Debug&quot;,
@@ -87,7 +90,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nicolas/Documents/Estudos gerais/DEV-WEEK/Santander-dev-week-2024&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Nicolas/Documents/Estudos gerais/Dev-week2024&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -96,7 +99,7 @@
     &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -253,6 +256,9 @@
       <workItem from="1711831337702" duration="739000" />
       <workItem from="1711832108331" duration="615000" />
       <workItem from="1711832747788" duration="191000" />
+      <workItem from="1711833036528" duration="449000" />
+      <workItem from="1711833573166" duration="21000" />
+      <workItem from="1711833812091" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -326,7 +332,47 @@
       <option name="project" value="LOCAL" />
       <updated>1711832434001</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1711833071824</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711833071824</updated>
+    </task>
+    <task id="LOCAL-00011" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1711833074328</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711833074328</updated>
+    </task>
+    <task id="LOCAL-00012" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1711833099067</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711833099067</updated>
+    </task>
+    <task id="LOCAL-00013" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1711833127427</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711833127427</updated>
+    </task>
+    <task id="LOCAL-00014" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1711833188729</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711833188729</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,11 +390,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First commit" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Alteração na parte de erros e modificação da aplicação na rede" />
     <MESSAGE value="Revert &quot;Alteração na parte de erros e modificação da aplicação na rede&quot;&#10;&#10;This reverts commit c69966d90f3a1bd1edfcd1200f71c84ee3665419." />
     <MESSAGE value="commit se" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit se" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
