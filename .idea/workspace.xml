@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d1851d0-16a8-4ce8-a37d-ea855b0a62f1" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/Santander-dev-week-2024/src/main/java/me/dio/sdw24/adapters/out/GoogleGeminiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Santander-dev-week-2024/src/main/java/me/dio/sdw24/adapters/out/OpenAiChatApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Santander-dev-week-2024/src/main/java/me/dio/sdw24/domain/ports/GenerativeAiService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Santander-Dev-Week2024" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Santander-dev-week-2024/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Santander-dev-week-2024/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Santander-dev-week-2024/src/main/java/me/dio/sdw24/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Santander-dev-week-2024/src/main/java/me/dio/sdw24/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Santander-dev-week-2024/src/main/java/me/dio/sdw24/adapters/in/AskChampionsRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Santander-dev-week-2024/src/main/java/me/dio/sdw24/adapters/in/AskChampionsRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Santander-dev-week-2024/src/main/java/me/dio/sdw24/adapters/in/ListChampionsRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Santander-dev-week-2024/src/main/java/me/dio/sdw24/adapters/in/ListChampionsRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Santander-dev-week-2024/src/main/java/me/dio/sdw24/application/AskChampionsUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Santander-dev-week-2024/src/main/java/me/dio/sdw24/application/AskChampionsUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Santander-dev-week-2024/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Santander-dev-week-2024/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +42,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Santander-dev-week-2024" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Santander-dev-week-2024" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Santander-dev-week-2024" type="f1a62948:ProjectNode" />
                 <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
@@ -47,9 +66,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Record" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -114,6 +133,7 @@
       <recent name="me.dio.sdw24.adapters.in" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.dio.sdw24.adapters.out" />
       <recent name="me.dio.sdw24.adapters.in" />
       <recent name="me.dio.sdw24.application" />
     </key>
@@ -167,12 +187,12 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Santander-dev-week-2024 [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Santander-dev-week-2024 [bootJar]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Santander-dev-week-2024" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -205,6 +225,10 @@
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="OPENAI_API_KEY" value="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" />
+        <env name="GEMINI_API_KEY" value="AIzaSyDG1fWVXHJ_O0vRVGfI05YGR-8PVhp7IqY" />
+      </envs>
       <module name="Santander-dev-week-2024.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="me.dio.sdw24.Application" />
       <extension name="coverage">
@@ -218,14 +242,13 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.Santander-dev-week-2024 [bootJar]" />
       <item itemvalue="Gradle.ListChampionUseCaseIntegrationTest" />
       <item itemvalue="Gradle.ListChampionUseCaseIntegrationTest.testListChampions" />
-      <item itemvalue="Gradle.Santander-dev-week-2024 [bootJar]" />
       <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Santander-dev-week-2024 [bootJar]" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Gradle.ListChampionUseCaseIntegrationTest.testListChampions" />
         <item itemvalue="Gradle.ListChampionUseCaseIntegrationTest" />
@@ -258,7 +281,9 @@
       <workItem from="1711832747788" duration="191000" />
       <workItem from="1711833036528" duration="449000" />
       <workItem from="1711833573166" duration="21000" />
-      <workItem from="1711833812091" duration="22000" />
+      <workItem from="1711833812091" duration="6044000" />
+      <workItem from="1711840232241" duration="6986000" />
+      <workItem from="1711912846452" duration="831000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -372,7 +397,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711833188729</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1711833855812</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711833855812</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,6 +429,16 @@
     <MESSAGE value="commit se" />
     <MESSAGE value="First commit" />
     <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
